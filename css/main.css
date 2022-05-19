@@ -12,7 +12,7 @@ body {
 }
 
 .container{
-	max-width: 1200px;
+	max-width: 767px;
 	width: 90%;
 	display: flex;
   	justify-content: center;
@@ -54,7 +54,7 @@ header {
 	width: 100%;
   	justify-content: center;
   	align-items: center;
-	flex-flow: column wrap;
+	flex-flow: row wrap;
 
 }
 
@@ -103,7 +103,8 @@ header nav ul li a{
 	width: 100%;
   	justify-content: center;
   	align-items: center;
-	flex-flow: column wrap;
+	flex-flow: row wrap;
+	flex-grow: 1;
 }
 
 .main-image {
@@ -136,7 +137,7 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	border-top: 0.0625em solid #eee;
 }
 
